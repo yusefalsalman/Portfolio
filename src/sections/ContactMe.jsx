@@ -80,7 +80,7 @@ export default function ContactMe() {
           />
           <div>
             <img
-              src="../public/images/email.png"
+              src="images/email.png"
               alt="Contact Icon"
               className="hidden md:block w-60 animate-bounce"
             />
