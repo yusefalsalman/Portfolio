@@ -58,7 +58,7 @@ export default function HeroSection() {
         {/* Action Buttons */}
         <div>
           <a
-            href="Files/yousef-resume.pdf"
+            href="docs/yousef-resume.pdf"
             className="text-white"
             target="_blank"
             rel="noopener noreferrer"
@@ -69,7 +69,7 @@ export default function HeroSection() {
             </button>
           </a>
           <a
-            href="Files/yousef-resume.pdf"
+            href="docs/yousef-resume.pdf"
             className="text-white"
             target="_blank"
             download="Yousef_Salman_Resume.pdf"
