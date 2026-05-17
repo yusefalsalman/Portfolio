@@ -58,7 +58,7 @@ export default function HeroSection() {
         {/* Action Buttons */}
         <div>
           <a
-            href="./public/Files/yousef-resume.pdf"
+            href="Files/yousef-resume.pdf"
             className="text-white"
             target="_blank"
             rel="noopener noreferrer"
@@ -69,7 +69,7 @@ export default function HeroSection() {
             </button>
           </a>
           <a
-            href="./public/Files/yousef-resume.pdf"
+            href="Files/yousef-resume.pdf"
             className="text-white"
             target="_blank"
             download="Yousef_Salman_Resume.pdf"
@@ -86,7 +86,7 @@ export default function HeroSection() {
 
       <div className="w-full lg:w-4/10 flex justify-center items-center fade-in-right transition-all duration-300">
         <img
-          src="./public/images/FullSizeRender.jpg"
+          src="images/FullSizeRender.jpg"
           className="w-70 w-min-50 bg-cover rounded-full shadow-lg  border-3 border-amber-700 animate-pulse  hover:animate-none hover:scale-105 hover:shadow-center-indigo transition-all duration-300"
           alt=""
         />

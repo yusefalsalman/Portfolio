@@ -23,7 +23,7 @@ export default function Projects() {
       title: 'To-Do App',
       description:
         'A sophisticated productivity app built with React.js. It features full CRUD (Create, Read, Update, Delete) functionality and demonstrates Virtual DOM efficiency, optional Context API usage, and persistent data handling for a seamless user workflow.',
-      src: '../public/projects_images/react-todo.jpg',
+      src: 'projects_images/react-todo.jpg',
       link: 'https://todoappyousefsalman.netlify.app/',
       github: 'https://github.com/yusefalsalman/Todo-List-React',
       technology: 'React',
@@ -32,7 +32,7 @@ export default function Projects() {
       title: 'Weather App',
       description:
         'A robust React application utilizing Axios for optimized API calls. It implements the useEffect hook for lifecycle management and useState for handling global weather states. The app is structured with reusable components, ensuring a scalable and maintainable codebase.',
-      src: '../public/projects_images/react_weather.jpg',
+      src: 'projects_images/react_weather.jpg',
       link: 'https://weatherflyyousefsalman.netlify.app/',
       github: 'https://github.com/yusefalsalman/Weatherify',
       technology: 'React',
@@ -41,7 +41,7 @@ export default function Projects() {
       title: 'Weather App',
       description:
         'An interactive weather application that fetches live meteorological data using the Fetch API. It features dynamic background changes based on weather conditions and handles complex JSON data structures to display humidity, wind speed, and temperature in real-time.',
-      src: '../public/projects_images/js-weather.jpg',
+      src: 'projects_images/js-weather.jpg',
       link: 'https://weathercheckabuseef.netlify.app/',
       github: 'https://github.com/yusefalsalman/Weather-Application',
       technology: 'Vanilla JS',
@@ -50,7 +50,7 @@ export default function Projects() {
       title: 'Login Page',
       description:
         'A sophisticated login system focused on form validation. It uses JavaScript RegEx to verify email formats and password strength, providing real-time error messages to improve user experience and data integrity.',
-      src: '../public/projects_images/login.jpg',
+      src: 'projects_images/login.jpg',
       link: 'https://loginpageseefo.netlify.app/',
       github: 'https://github.com/yusefalsalman/Login-Page',
       technology: 'Vanilla JS',
@@ -59,7 +59,7 @@ export default function Projects() {
       title: 'Guess The Word Game',
       description:
         'Logic-based educational games that utilize complex JavaScript state management and array methods. These projects involve tracking user attempts, managing game win/loss conditions, and dynamically updating the UI without page refreshes.',
-      src: '../public/projects_images/guess.jpg',
+      src: 'projects_images/guess.jpg',
       link: 'https://guessthewordseefo.netlify.app/',
       github: 'https://github.com/yusefalsalman/Guess-The-Word-Game',
       technology: 'Vanilla JS',
@@ -68,7 +68,7 @@ export default function Projects() {
       title: 'Calculator',
       description:
         'The Calculator demonstrates precision in handling arithmetic operations and edge cases in the UI, ensuring reliable results and graceful handling of invalid input.',
-      src: '../public/projects_images/calculator.jpg',
+      src: 'projects_images/calculator.jpg',
       link: 'https://calculatorabuseef.netlify.app/',
       github: 'https://github.com/yusefalsalman/Calculator',
       technology: 'Vanilla JS',
@@ -77,7 +77,7 @@ export default function Projects() {
       title: 'ToDo List App',
       description:
         'Simple to-do list with add, remove and mark-as-done features.',
-      src: '../public/projects_images/js-todo.jpg',
+      src: 'projects_images/js-todo.jpg',
       link: 'https://todolistseefo.netlify.app/',
       github: 'https://github.com/yusefalsalman/To-Do-List',
       technology: 'Vanilla JS',
@@ -86,7 +86,7 @@ export default function Projects() {
       title: 'Hangman Game',
       description:
         'Logic-based educational games that utilize complex JavaScript state management and array methods. These projects involve tracking user attempts, managing game win/loss conditions, and dynamically updating the UI without page refreshes.',
-      src: '../public/projects_images/hangman.jpg',
+      src: 'projects_images/hangman.jpg',
       link: 'https://seefosalmangames.netlify.app/',
       github: 'https://github.com/yusefalsalman/Hangman-Game',
       technology: 'Vanilla JS',
@@ -95,7 +95,7 @@ export default function Projects() {
       title: 'GitHub Repo Finder',
       description:
         'A productivity tool that connects to the GitHub REST API. It allows users to search for any profile and instantly retrieves a list of repositories, including star counts, forks, and primary languages. This project showcases advanced asynchronous programming (async/await) and data filtering.',
-      src: '../public/projects_images/repos.jpg',
+      src: 'projects_images/repos.jpg',
       link: 'https://yousefhandleapi.netlify.app/',
       github: 'https://github.com/yusefalsalman/Get-Repos',
       technology: 'Vanilla JS',
@@ -104,7 +104,7 @@ export default function Projects() {
       title: 'Quiz App',
       description:
         'Practical tools designed to handle user input and mathematical logic. The Quiz App features a scoring algorithm and immediate feedback loops, while the Calculator demonstrates precision in handling arithmetic operations and edge cases in the UI.',
-      src: '../public/projects_images/quiz.jpg',
+      src: 'projects_images/quiz.jpg',
       link: 'https://quizappyousefsalman.netlify.app/',
       github: 'https://github.com/yusefalsalman/Quiz-Application',
       technology: 'Vanilla JS',
@@ -113,7 +113,7 @@ export default function Projects() {
       title: 'First Project - Landing Page',
       description:
         'A high-performance, responsive landing page built with a mobile-first approach. This project demonstrates mastery of CSS Flexbox and Grid layouts, semantic HTML5 for SEO optimization, and smooth hover effects. It focuses on clean typography and consistent branding across all device breakpoints.',
-      src: '../public/projects_images/first.jpg',
+      src: 'projects_images/first.jpg',
       link: 'https://pageyousef.netlify.app/',
       github: 'https://github.com/yusefalsalman/Landing-Page',
       technology: 'Vanilla JS',
@@ -122,7 +122,7 @@ export default function Projects() {
       title: 'Portfolio',
       description:
         'A professional, production-ready portfolio website built using React and bundled with Vite to showcase my frontend applications and technical expertise. The platform features a highly optimized styling architecture that seamlessly combines Tailwind CSS for rapid custom layouts with Material UI (MUI) for polished, interactive components, delivering an exceptional UI/UX and a fully responsive experience across all devices.',
-      src: '../public/projects_images/portfolio.jpg',
+      src: 'projects_images/portfolio.jpg',
       link: '',
       github: 'https://github.com/yusefalsalman/Portfolio',
       technology: 'React',
