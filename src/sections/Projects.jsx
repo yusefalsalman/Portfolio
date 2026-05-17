@@ -199,7 +199,7 @@ export default function Projects() {
                   <h3 className="text-2xl mb-3 font-semibold">
                     {project.title}
                   </h3>
-                  <p className="desc text-gray-400">{project.description}</p>
+                  <p className="desc text-sm md:text-lg text-gray-400">{project.description}</p>
                 </div>
                 <div className="link flex justify-between items-center px-4  mt-auto border-t border-gray-700 pt-2">
                   <a

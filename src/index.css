@@ -177,6 +177,10 @@ html {
   border: 1px solid #ccc !important;
 }
 
+.fateh .navs {
+  color: #333 !important;
+}
+
 .toggles {
   border: 1px solid var(--color-primary-main) !important;
 }

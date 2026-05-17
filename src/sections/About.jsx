@@ -5,7 +5,7 @@ export default function About() {
         <h2 className="praimary-head text-2xl mx-auto mb-10 fade-in-left ">
           ABOUT ME
         </h2>
-        <p className="text-gray-300 mt-4 text-lg text-center w-3/4 m-auto fade-in-right">
+        <p className="text-gray-300 mt-4  text-center w-3/4 m-auto fade-in-right text-sm md:text-lg">
           I am a software developer specializing in Artificial Intelligence and
           modern web technologies. Focused on bridging the gap between smart
           algorithms and seamless user experiences, I build high-performance web

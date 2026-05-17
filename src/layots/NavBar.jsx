@@ -45,7 +45,7 @@ export default function NavBar() {
               <a
                 key={index}
                 href={e.href}
-                className={`inline-block  hover:-translate-y-1/12 transition-all duration-300 font-medium`}
+                className={`navs inline-block  hover:-translate-y-1/12 transition-all duration-300 font-medium`}
               >
                 {e.name}
               </a>
@@ -85,7 +85,7 @@ export default function NavBar() {
                   <a
                     key={index}
                     href={e.href}
-                    className={`block text-lg  p-3  hover:text-blue-400 hover:translate-x-1 transition-all duration-300 font-medium`}
+                    className={`navs block text-lg  p-3  hover:text-blue-400 hover:translate-x-1 transition-all duration-300 font-medium`}
                     onClick={handleMenu}
                   >
                     {e.name}

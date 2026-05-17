@@ -11,10 +11,10 @@ export default function ContactMe() {
 
     emailjs
       .sendForm(
-        'service_v4kepxr', // Service ID الصحيح
-        'template_7hguabh', // Template ID الحقيقي من صورتك الأولى
+        'service_v4kepxr',
+        'template_7hguabh',
         form.current,
-        '7xuzcV5S7sWZ519P6' // Public Key الحقيقي من صورتك الثانية
+        '7xuzcV5S7sWZ519P6'
       )
       .then(
         () => {
@@ -37,7 +37,7 @@ export default function ContactMe() {
         </h1>
       </header>
       <div className="">
-        <p className="desc text-gray-300 lg text-center fade-in-right w-3/4 mx-auto">
+        <p className="desc text-gray-300  text-center fade-in-right w-3/4 mx-auto text-sm md:text-lg">
           I'm always open to discussing new projects, creative ideas, or
           opportunities to be part of your visions. Feel free to reach out to me
           through any of the platforms below. Let's connect and create something
