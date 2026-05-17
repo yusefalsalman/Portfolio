@@ -120,10 +120,11 @@ export default function Projects() {
     },
     {
       title: 'Portfolio',
-      description: '',
+      description:
+        'A professional, production-ready portfolio website built using React and bundled with Vite to showcase my frontend applications and technical expertise. The platform features a highly optimized styling architecture that seamlessly combines Tailwind CSS for rapid custom layouts with Material UI (MUI) for polished, interactive components, delivering an exceptional UI/UX and a fully responsive experience across all devices.',
       src: '../public/projects_images/portfolio.jpg',
       link: '',
-      github: '',
+      github: 'https://github.com/yusefalsalman/Portfolio',
       technology: 'React',
     },
   ];
