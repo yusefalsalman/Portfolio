@@ -175,7 +175,7 @@ export default function Projects() {
             <p className="text-lg  text-white">All</p>
           </ToggleButton>
           <ToggleButton value="center" aria-label="centered">
-            <p className="text-lg  text-white">Vanilla JS</p>
+            <p className="text-lg  text-white">JS</p>
           </ToggleButton>
           <ToggleButton value="right" aria-label="right aligned">
             <p className="text-lg  text-white">React</p>
@@ -187,7 +187,7 @@ export default function Projects() {
           return (
             <div
               key={index}
-              className="Box border border-gray-700 flex flex-col gap-2 rounded-lg  shadow-md transition duration-300 ease-in-out hover:scale-102 hover:shadow-center-indigo-500/50 hover:border-indigo-500"
+              className="Box w-full  border border-gray-700 flex flex-col gap-2 rounded-lg  shadow-md transition duration-300 ease-in-out hover:scale-102 hover:shadow-center-indigo-500/50 hover:border-indigo-500"
             >
               <img
                 src={project.src}

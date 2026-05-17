@@ -39,7 +39,7 @@ export default function HeroSection() {
           creating dynamic and responsive websites.
         </p>
         {/* Links */}
-        <div className="mt-6">
+        <div className="mt-6 flex justify-center lg:justify-start items-center">
           {links.map((e, index) => {
             const IconComponent = e.icon;
             return (
@@ -47,7 +47,7 @@ export default function HeroSection() {
                 key={index}
                 href={e.href}
                 target="_blank"
-                className="inline-flex items-center   hover:text-blue-500 hover:scale-120 ml-4 transition-all duration-300"
+                className="hover:text-blue-500 hover:scale-120 ml-4 transition-all duration-300"
               >
                 <IconComponent sx={{ fontSize: '30px' }} />
               </a>
@@ -56,14 +56,14 @@ export default function HeroSection() {
         </div>
         {/* == Links == */}
         {/* Action Buttons */}
-        <div>
+        <div className="lg:flex-row lg:justify-start sm:flex-col sm:justify-center sm:items-center items-center">
           <a
             href="docs/yousef-resume.pdf"
             className="text-white"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="cursor-pointer mt-6 mr-4 inline-flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-all duration-300">
+            <button className="cursor-pointer mt-6 mr-4 w-full md:w-fit  bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-all duration-300">
               <RemoveRedEyeIcon className="mr-2" />
               View CV
             </button>
@@ -75,7 +75,7 @@ export default function HeroSection() {
             download="Yousef_Salman_Resume.pdf"
             rel="noopener noreferrer"
           >
-            <button className="cursor-pointer mt-6 inline-flex items-center bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-800 transition-all duration-300">
+            <button className="cursor-pointer mt-6  bg-gray-700  w-full md:w-fit text-white px-4 py-2 rounded hover:bg-gray-800 transition-all duration-300">
               <DownloadingIcon className="mr-2" />
               Download CV
             </button>

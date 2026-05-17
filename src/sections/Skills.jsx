@@ -20,7 +20,7 @@ export default function Skills() {
           Skills
         </h2>
       </header>
-      <div className="flex flex-wrap justify-center gap-6 fade-in-right">
+      <div className="flex flex-wrap justify-center md:justify-center gap-6 fade-in-right">
         {skills_src.map((src, index) => {
           return (
             <img

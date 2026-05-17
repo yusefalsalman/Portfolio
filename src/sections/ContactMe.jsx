@@ -37,13 +37,13 @@ export default function ContactMe() {
         </h1>
       </header>
       <div className="">
-        <p className="desc text-gray-300  text-center fade-in-right w-3/4 mx-auto text-sm md:text-lg">
+        <p className="desc text-gray-300  text-center fade-in-right mx-auto text-sm md:text-lg w-full  md:w-3/4 lg:w-2/4">
           I'm always open to discussing new projects, creative ideas, or
           opportunities to be part of your visions. Feel free to reach out to me
           through any of the platforms below. Let's connect and create something
           amazing together!
         </p>
-        <div className="block justify-between items-center gap-20 mt-10 md:flex">
+        <div className="block justify-between items-center gap-20 mt-10 md:flex ">
           <form
             ref={form}
             onSubmit={sendEmail}
@@ -69,7 +69,7 @@ export default function ContactMe() {
               />
             </div>
             <div>
-              <button className="bg-blue-500 cursor-pointer hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition duration-300">
+              <button className="bg-blue-500 cursor-pointer hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition duration-300 w-full md:w-auto">
                 Send Message
               </button>
             </div>
