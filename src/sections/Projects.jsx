@@ -187,7 +187,7 @@ export default function Projects() {
           return (
             <div
               key={index}
-              className="Box w-full  border border-gray-700 flex flex-col gap-2 rounded-lg  shadow-md transition duration-300 ease-in-out hover:scale-102 hover:shadow-center-indigo-500/50 hover:border-indigo-500"
+              className="Box w-full   border border-gray-700 flex flex-col gap-2 rounded-lg  shadow-md transition duration-300 ease-in-out hover:scale-102 hover:shadow-center-indigo-500/50 hover:border-indigo-500"
             >
               <img
                 src={project.src}
@@ -199,7 +199,9 @@ export default function Projects() {
                   <h3 className="text-2xl mb-3 font-semibold">
                     {project.title}
                   </h3>
-                  <p className="desc text-sm md:text-lg text-gray-400">{project.description}</p>
+                  <p className="desc text-sm md:text-lg text-gray-400">
+                    {project.description}
+                  </p>
                 </div>
                 <div className="link flex justify-between items-center px-4  mt-auto border-t border-gray-700 pt-2">
                   <a
