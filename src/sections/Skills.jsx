@@ -26,7 +26,7 @@ export default function Skills() {
             <img
               src={src}
               title={src.split('/').slice(-2)[0].split('-')[0].toUpperCase()}
-              className=" bg-primary-dark w-20 lg:w-35 hover:scale-110 transition-all duration-300 p-2 rounded-lg"
+              className=" bg-primary-dark w-20 lg:w-35  hover:scale-110 transition-all duration-300 p-2 rounded-lg"
               alt=""
               key={index}
             />
